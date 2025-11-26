@@ -1,4 +1,7 @@
 #include <iostream>
+#include "Utilisateur.h"
+#include "Administrateur.h"
+#include "Statistiques.h"
 #include <chrono>
 #include <iostream>
 #include <ctime>
@@ -11,6 +14,8 @@ using namespace std;
 
 int main()
 {
+
+    std::cout << "Programme principal lancé." << std::endl;
     /*
     cout << "Hello world!" << endl;
     chrono::system_clock::time_point now = chrono::system_clock::now() ;
@@ -27,7 +32,7 @@ int main()
         return 1;
     }
 
-    std::cout << "DB ouverte avec succ�s !" << std::endl;
+    std::cout << "DB ouverte avec succ�s !" << std::endl;
 
     sqlite3_close(db); */
     Database db("hopital.sqlite");
@@ -42,6 +47,18 @@ int main()
 
     Patient a = Patient::read(db.getDatabase() , 10);
     std::cout << a.GetnomPatient();
+
+
+
+    
+
+    // Création d'objets basiques pour montrer que les classes sont reconnues
+    Utilisateur user;          // objet Utilisateur
+    Administrateur admin;      // objet Administrateur
+    Statistiques stats;        // objet Statistiques
+
+    // Affichage minimal pour vérifier la compilation
+    std::cout << "Classes initialisées correctement." << std::endl;
 
 
     return 0;
