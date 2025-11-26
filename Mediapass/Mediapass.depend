@@ -1,0 +1,162 @@
+# depslib dependency file v1.0
+1764199353 source:e:\cours ifri\programmation et bd\c++\mediapass\mediapass\main.cpp
+	<iostream>
+	<chrono>
+	<iostream>
+	<ctime>
+	"sqlite3.h"
+	"Database.h"
+	"Patient.h"
+
+1764198792 source:e:\cours ifri\programmation et bd\c++\mediapass\mediapass\src\patient.cpp
+	"Patient.h"
+	<string>
+	<iostream>
+	"sqlite3.h"
+	<chrono>
+
+1764194142 e:\cours ifri\programmation et bd\c++\mediapass\mediapass\include\patient.h
+	<string>
+	<chrono>
+	<sstream>
+	<iomanip>
+	<iostream>
+	"sqlite3.h"
+
+1764032991 source:e:\cours ifri\programmation et bd\c++\mediapass\mediapass\src\sqlite3.c
+	<vxWorks.h>
+	<pthread.h>
+	"mingw.h"
+	"_mingw.h"
+	<stdarg.h>
+	"sqlite_cfg.h"
+	<stdint.h>
+	<inttypes.h>
+	<intrin.h>
+	<cmnintrin.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<stddef.h>
+	<ctype.h>
+	<TargetConditionals.h>
+	<time.h>
+	<sys/sysctl.h>
+	<malloc/malloc.h>
+	<libkern/OSAtomic.h>
+	<malloc.h>
+	<pthread.h>
+	"windows.h"
+	<sys/cygwin.h>
+	<sys/stat.h>
+	<unistd.h>
+	<errno.h>
+	<process.h>
+	<math.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<unistd.h>
+	<sys/time.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<sys/ioctl.h>
+	<unistd.h>
+	<sys/time.h>
+	<errno.h>
+	<sys/mman.h>
+	<sys/file.h>
+	<sys/param.h>
+	<semaphore.h>
+	<limits.h>
+	<sys/mount.h>
+	<utime.h>
+	<sys/dcmd_blk.h>
+	<sys/statvfs.h>
+	<dlfcn.h>
+	<Windows.h>
+	"tclsqlite.h"
+	"sqlite3rtree.h"
+	<ctype.h>
+	<unicode/utypes.h>
+	<unicode/uregex.h>
+	<unicode/ustring.h>
+	<unicode/ucol.h>
+	<unicode/ubrk.h>
+	<unicode/utf16.h>
+	<sys/uio.h>
+	<math.h>
+
+1764032963 source:c:\users\freud arthur\downloads\sqlite-amalgamation-3510000\sqlite-amalgamation-3510000\sqlite3.c
+
+1764031929 e:\cours ifri\programmation et bd\c++\mediapass\mediapass\include\sqlite3.h
+	<stdarg.h>
+
+1764122972 source:e:\cours ifri\programmation et bd\c++\mediapass\mediapass\src\database.cpp
+	"Database.h"
+	"sqlite3.h"
+	<iostream>
+	<string>
+
+1764122916 e:\cours ifri\programmation et bd\c++\mediapass\mediapass\include\database.h
+	"sqlite3.h"
+	<iostream>
+
+1764199441 source:e:\cours ifri\programmation et bd\c++\mediapass\mediapass\src\antecedents.cpp
+	"Antecedents.h"
+	"Patient.h"
+	"sqlite3.h"
+	<iostream>
+
+1764189157 e:\cours ifri\programmation et bd\c++\mediapass\mediapass\include\antecedents.h
+	"sqlite3.h"
+	<string>
+
+1764199441 source:e:\cours ifri\programmation et bd\c++\mediapass\mediapass\src\dossiermedical.cpp
+	"DossierMedical.h"
+	"sqlite3.h"
+	<iostream>
+
+1764192030 e:\cours ifri\programmation et bd\c++\mediapass\mediapass\include\dossiermedical.h
+	<string>
+	<vector>
+	"Consultation.h"
+	"Antecedents.h"
+	"sqlite3.h"
+
+1764199441 source:e:\cours ifri\programmation et bd\c++\mediapass\mediapass\src\examens.cpp
+	"Examens.h"
+	"sqlite3.h"
+	<string>
+	<iostream>
+
+1764190460 e:\cours ifri\programmation et bd\c++\mediapass\mediapass\include\examens.h
+	<string>
+	"sqlite3.h"
+
+1764199441 source:e:\cours ifri\programmation et bd\c++\mediapass\mediapass\src\prescriptions.cpp
+	"Prescriptions.h"
+	"sqlite3.h"
+	<iostream>
+	<string>
+
+1764191486 e:\cours ifri\programmation et bd\c++\mediapass\mediapass\include\prescriptions.h
+	<string>
+	"sqlite3.h"
+
+1764199441 source:e:\cours ifri\programmation et bd\c++\mediapass\mediapass\src\consultation.cpp
+	"Consultation.h"
+	"Prescriptions.h"
+	"sqlite3.h"
+	<iostream>
+	<vector>
+	<string>
+
+1764186999 e:\cours ifri\programmation et bd\c++\mediapass\mediapass\include\consultation.h
+	<vector>
+	<string>
+	"Examens.h"
+	"Prescriptions.h"
+	"sqlite3.h"
+
