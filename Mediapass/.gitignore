@@ -32,3 +32,4 @@ Makefile
 # --- Configurations IDE ---
 .idea/
 .vscode/
+**/CMakeLists.txt

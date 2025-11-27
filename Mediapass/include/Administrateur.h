@@ -2,7 +2,7 @@
 #define ADMINISTRATEUR_H
 
 
-class Administrateur {
+class Administrateur : public Utilisateur {
     private:
         Statistiques stats; // données de statistiques détenues par l'administrateur
 
